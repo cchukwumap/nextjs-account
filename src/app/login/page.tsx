@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { use } from "react";
 import { useRouter } from "next/navigation";
-import { axios } from "axios";
+import { Axios } from "axios";
 
 export default function SignupPage() {
   const [user, setUser] = React.useState({
